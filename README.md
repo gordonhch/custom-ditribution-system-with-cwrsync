@@ -71,4 +71,4 @@ In an extreme scenario that your server got hacked this will not protect your us
 
 
 That's it! 
-For more info you can check out `rssh`, `chmod` file permissions and rsync `flags` & `excludes` to further customize this setup to your liking.
+For more info you can check out `rssh`, `chmod` file permissions and rsync's `flags` & `excludes` to further customize this setup to your liking.
