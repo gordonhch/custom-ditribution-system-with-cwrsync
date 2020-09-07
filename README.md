@@ -6,4 +6,4 @@ Currently made for PowerShell but should work for linux distros as rsync runs na
 # Concepts
 Rsync - a linux command for efficiently syncing files.
 cygwin - a tool for running linux commands on PowerShell
-cwrsync - a package for (a)[https://itefix.net/cwrsync]
+cwrsync - a package for rsync usage on PowerShell by [itefix](https://itefix.net/cwrsync)
