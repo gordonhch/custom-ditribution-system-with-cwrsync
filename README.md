@@ -62,9 +62,12 @@ Restrict the account on your server with `rssh` to prevent unauthorized access. 
 
 
 Spin up a vps, did some config, This usually require only an hour of work if not minutes.
+
+From my test this server can easily handle 10s of GBs resonably fast as long as your server has the storage space. 
+
 You can use public key and private key pairs to enchance security for your users(to confirm the ip / address connects to your server and isn't redirected to others'). 
 In an extreme scenario that your server got hacked this will not protect your users.
 
 
 That's it! 
-For more info you can check out rssh, chmod file permissions and rsync flags & excludes to further customize this setup to your liking.
+For more info you can check out `rssh`, `chmod` file permissions and rsync `flags` & `excludes` to further customize this setup to your liking.
