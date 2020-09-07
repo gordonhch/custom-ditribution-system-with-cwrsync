@@ -31,18 +31,18 @@ As we have your files at /rootpath1/path2/path3/folder1/ at the server 1.1.1.1, 
 
 > username1@1.1.1.1:/rootpath1/path2/path3/folder1/ folder1/
 
-###replace the command:
-username1 with the account, 
-1.1.1.1 with your ip or address, 
-/rootpath1/path2/path3/folder1/ for the path to the sync folder(the source),
-folder1/ for the client folder to download into(the destination).
+replace:
+* `username1` with the account, 
+* `1.1.1.1` with your ip or address, 
+* `/rootpath1/path2/path3/folder1/` for the path to the sync folder(the source),
+* `folder1/` for the client folder to download into(the destination).
 
 
-###paths:
-keep the / in-place to avoid syntax issues. 
-Feel free to use relative paths in the source path and/or ../ in the destination path.
-But beware that your users might break the path relations without realizing it.
-The current implementation allows your users to move the folders as long as they move/copy cwrsync with it.
+paths:
+* keep the `/` in-place to avoid syntax issues. 
+* You could use relative paths in the source path and/or `../` in the destination path.
+* But beware that your users might break the path relations without realizing it.
+* The current implementation allows your users to move the folders as long as they move/copy cwrsync with it.
 
 
 
