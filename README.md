@@ -24,9 +24,9 @@ This script package is essentially a repackaged cwrsync ready for use once you s
 
 Setup a vps server and upload your folder and files there. We'll call the base sync folder 'folder1'.
 
-Add a new user to be used for syncing only. We call this user 'username1'. 
+Add a new user to be used for syncing only. We call this user 'username1'. Log in with this user.
 
-Disable Key-authentication for this account for now. Don't do this with your root.
+Disable Key-authentication for this account for now. _Don't do this with your root._
 
 As we have your files at /rootpath1/path2/path3/folder1/ at the server 1.1.1.1, look at this line in the script:
 
