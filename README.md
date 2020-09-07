@@ -61,6 +61,7 @@ If proceeded correctly, you've just made yourself a sync server.
 Restrict the account on your server with `rssh` to prevent unauthorized access. [guide](http://terranhost.com/blog/2011/09/use-rssh-to-restrict-user-access-to-sftp/index.html)
 
 
+# Conclusion
 Spin up a vps, did some config, This usually require only an hour of work if not minutes.
 
 From my test this server can easily handle 10s of GBs resonably fast as long as your server has the storage space. 
