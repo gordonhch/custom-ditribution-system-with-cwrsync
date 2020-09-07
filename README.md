@@ -2,9 +2,9 @@
 
 A script for one-way syncing files into individual folders from a server. 
 
-Useful for maintaining your custom build and maintained softwares, modded game files, or media files that get updated routinely. 
+Useful for maintaining your custom build and maintained softwares, modded game files, or media files that gets updated routinely. 
 
-Currently made for PowerShell but should work for linux distros as rsync runs natively without the compatibility extras.
+Currently made for PowerShell but should be easily made to work for linux distros since rsync runs natively without the compatibility extras.
 
 
 
