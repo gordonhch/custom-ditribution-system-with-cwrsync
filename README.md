@@ -24,21 +24,24 @@ This script package is essentially a repackaged cwrsync ready for use once you s
 
 Setup a vps server and upload your folder and files there. We'll call the base sync folder 'folder1'.
 
-Add a new user to be used for syncing only. We call this user 'username1'
+Add a new user to be used for syncing only. We call this user 'username1'. 
+
+Disable Key-authentication for this account for now. Don't do this with your root.
 
 As we have your files at /rootpath1/path2/path3/folder1/ at the server 1.1.1.1, look at this line in the script:
 
 
 > username1@1.1.1.1:/rootpath1/path2/path3/folder1/ folder1/
 
-replace:
+replace placeholders:
 * `username1` with the account, 
 * `1.1.1.1` with your ip or address, 
 * `/rootpath1/path2/path3/folder1/` for the path to the sync folder(the source),
 * `folder1/` for the client folder to download into(the destination).
 
 
-paths:
+
+using paths:
 * keep the `/` in-place to avoid syntax issues. 
 * You could use relative paths in the source path and/or `../` in the destination path.
 * But beware that your users might break the path relations without realizing it.
@@ -46,3 +49,16 @@ paths:
 
 
 
+Run the script:
+* The Auto-update version updates check the files' modification dates and updates accordingly. Files not on the server are left untouched.
+* The RESET version resets your folder to be identical as the one on the server. Files not on the server are deleted.
+  - depends on your situation less capable users are better off without the reset script until they need one from you.
+  
+* answer '**yes**' to proceed if the script prompt question on the identity of your server.
+* password is the your account password.
+
+If proceeded correctly, you've just made yourself a sync server.
+Restrict the account on your server with `rssh` to prevent unauthorized access. [guide](http://terranhost.com/blog/2011/09/use-rssh-to-restrict-user-access-to-sftp/index.html)
+
+
+Spin up a vps, did some config, This usually require only an hour of work if not minutes.
