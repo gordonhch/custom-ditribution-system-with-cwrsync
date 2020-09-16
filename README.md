@@ -1,4 +1,4 @@
-# Cwrsync: micro content ditribution system & scripts
+# Custom ditribution system with Cwrsync
 
 A script for one-way syncing files into individual folders from a server. 
 
